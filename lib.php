@@ -26,29 +26,14 @@ defined('MOODLE_INTERNAL') || die();
 
 /**
  * Inject additional SCSS.
+ * This function needs to be implemented because we take most settings from the parent theme boost_campus.
  *
  * @param theme_config $theme The theme config object.
  * @return string
  */
 function theme_boost_campus_child_get_extra_scss($theme) {
-    // MODIFICATION START: Add the variables from the theme Boost Campus settings.
-    // We need to work with stdclass here because the function expects the parameter to have a certain data structure.
-    // We rebuild this data structure here.
-    $boostcampusconfig = new stdclass();
-    // Get the config.
-    $boostcampusconfig->settings = get_config('theme_boost_campus');
-    // Get the pre scss from the parent theme Boost Campus.
-    $boostcampusrawscss = theme_boost_get_extra_scss($boostcampusconfig);
-    if (!empty($theme->settings->scss) || !empty($boostcampusrawscss)) {
-        // Return the Raw SCSS from Boost Campus and Boost Campus Child.
-        return $boostcampusrawscss . $theme->settings->scss;
-    } else {
-        return '';
-    }
-    // MODIFICATION END.
-    /* ORIGINAL START.
-    return !empty($theme->settings->scss) ? $theme->settings->scss : '';
-    ORIGINAL END. */
+    // Return the Raw SCSS from Boost Campus and Boost Campus Child.
+    return theme_boost_campus_get_extra_scss(theme_config::load('boost_campus')) . $theme->settings->scss;
 }
 
 /**

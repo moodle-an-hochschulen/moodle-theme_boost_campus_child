@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2018-02-20 - Changed the get_extra_scss functionality due to parent theme changes.
 * 2018-02-19 - Check compatibility for Moodle 3.4, no functionality change.
 
 ### v3.3-r1

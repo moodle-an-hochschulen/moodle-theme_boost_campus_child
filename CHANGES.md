@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.4-r1
 
 * 2018-02-20 - Changed the get_extra_scss functionality due to parent theme changes.
 * 2018-02-19 - Check compatibility for Moodle 3.4, no functionality change.

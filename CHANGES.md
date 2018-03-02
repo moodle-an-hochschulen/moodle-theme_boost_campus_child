@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2018-03-02 - Improved get_extra_scss callback due to doubled CSS code.
+
 ### v3.4-r1
 
 * 2018-02-20 - Changed the get_extra_scss functionality due to parent theme changes.

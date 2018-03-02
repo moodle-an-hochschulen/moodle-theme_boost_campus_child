@@ -32,8 +32,22 @@ defined('MOODLE_INTERNAL') || die();
  * @return string
  */
 function theme_boost_campus_child_get_extra_scss($theme) {
+    // Get the config from parent theme boost_campus
+    $boostcampusconfig = theme_config::load('boost_campus');
+    // Retrieve its SCSS
+    $boostcampusscss = $boostcampusconfig->settings->scss;
+
+    $content = '';
+    $imageurl = $boostcampusconfig->setting_file_url('backgroundimage', 'backgroundimage');
+
+    // Sets the background image, and its settings.
+    if (!empty($imageurl)) {
+        $content .= 'body { ';
+        $content .= "background-image: url('$imageurl');";
+        $content .= ' }';
+    }
     // Return the Raw SCSS from Boost Campus and Boost Campus Child.
-    return theme_boost_campus_get_extra_scss(theme_config::load('boost_campus')) . $theme->settings->scss;
+    return $boostcampusscss . $theme->settings->scss . $content;
 }
 
 /**

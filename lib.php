@@ -137,7 +137,7 @@ function theme_boost_campus_child_get_pre_scss($theme) {
             continue;
         }
         array_map(function($target) use (&$scss, $value) {
-            $scss = '$' . $target . ': ' . $value . ";\n";
+            $scss .= '$' . $target . ': ' . $value . ";\n";
         }, (array) $targets);
     }
 

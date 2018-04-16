@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.4-r3
 
 * 2018-04-16 - Fixed bug in function that writes settings to pre scss.
 

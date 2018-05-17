@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2018-05-16 - Implement Privacy API.
+
 ### v3.4-r3
 
 * 2018-04-16 - Fixed bug in function that writes settings to pre scss.

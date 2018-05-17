@@ -15,21 +15,33 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Theme Boost Campus Child - Language pack
+ * Theme Boost Campus Child - Privacy provider
  *
  * @package    theme_boost_campus_child
- * @copyright  2017 Kathrin Osswald, Ulm University <kathrin.osswald@uni-ulm.de>
+ * @copyright  2018 Alexander Bias, Ulm University <alexander.bias@uni-ulm.de>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+namespace theme_boost_campus_child\privacy;
+
 defined('MOODLE_INTERNAL') || die();
 
-// GENERAL.
-$string['pluginname'] = 'Boost Campus Child';
-$string['choosereadme'] = 'Theme Boost Campus Child is a child theme of Boost Campus and used to use all features of the theme Boost Campus but with the possibility to change colors easily and add own SCSS.';
+/**
+ * Privacy Subsystem implementing null_provider.
+ *
+ * @package    theme_boost_campus_child
+ * @copyright  2018 Alexander Bias, Ulm University <alexander.bias@uni-ulm.de>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+class provider implements \core_privacy\local\metadata\null_provider {
 
-// SETTINGS.
-$string['configtitle'] = 'Boost Campus Child settings';
-
-// PRIVACY.
-$string['privacy:metadata'] = 'The Boost Campus Child theme does not store any personal data about any user.';
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}

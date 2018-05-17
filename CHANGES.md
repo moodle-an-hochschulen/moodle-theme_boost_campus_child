@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.4-r4
 
 * 2018-05-16 - Implement Privacy API.
 

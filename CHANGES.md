@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.5-r1
 
 * 2018-05-24 - Check compatibility for Moodle 3.5, no functionality change.
 

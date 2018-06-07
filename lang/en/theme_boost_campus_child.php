@@ -30,6 +30,11 @@ $string['choosereadme'] = 'Theme Boost Campus Child is a child theme of Boost Ca
 
 // SETTINGS.
 $string['configtitle'] = 'Boost Campus Child settings';
+// FOOTER LAYOUT SETTINGS (DEFINED IN BOOST) - strings also needed here.
+$string['region-footer-left'] = 'Footer (left)';
+$string['region-footer-middle'] = 'Footer (middle)';
+$string['region-footer-right'] = 'Footer (right)';
+$string['region-side-pre'] = 'Right';
 
 // PRIVACY.
 $string['privacy:metadata'] = 'The Boost Campus Child theme does not store any personal data about any user.';

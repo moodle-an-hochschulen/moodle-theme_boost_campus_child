@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2018-06-07 - Added missing strings from a Boost Campus setting.
+
 ### v3.5-r1
 
 * 2018-05-24 - Check compatibility for Moodle 3.5, no functionality change.

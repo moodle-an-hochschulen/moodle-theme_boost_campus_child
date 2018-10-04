@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.5-r2
 
 * 2018-10-04 - Fixed brand colors due to Bootstrap changes in Boost.
 * 2018-06-07 - Added missing strings from a Boost Campus setting.

@@ -121,12 +121,12 @@ function theme_boost_campus_child_get_pre_scss($theme) {
     $scss = '';
     $configurable = [
         // Config key => [variableName, ...].
-        'brandcolor' => ['brand-primary'],
+        'brandcolor' => ['primary'],
         // MODIFICATION START: Add own variables.
-        'brandsuccesscolor' => ['brand-success'],
-        'brandinfocolor' => ['brand-info'],
-        'brandwarningcolor' => ['brand-warning'],
-        'branddangercolor' => ['brand-danger'],
+        'brandsuccesscolor' => ['success'],
+        'brandinfocolor' => ['info'],
+        'brandwarningcolor' => ['warning'],
+        'branddangercolor' => ['danger'],
         // MODIFICATION END.
     ];
 

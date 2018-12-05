@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2018-12-05 - Changed travis.yml due to upstream changes.
+
 ### v3.5-r2
 
 * 2018-10-04 - Fixed brand colors due to Bootstrap changes in Boost.

@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.6-r1
 
 * 2019-01-31 - Check compatibility for Moodle 3.6, no functionality change.
 * 2018-12-05 - Changed travis.yml due to upstream changes.

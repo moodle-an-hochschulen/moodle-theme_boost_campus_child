@@ -97,7 +97,7 @@ All settings and the entire design (SCSS - pre and post as well as the Raw SCSS 
 How to clone this theme for just another child theme instance
 -------------------------------------------------------------
 
-* Copy the directoy /theme/boost_campus_child to /theme/boost_campus/foo
+* Copy the directoy /theme/boost_campus_child to /theme/boost_campus_foo
 * Search and replace the string "theme_boost_campus_child" within this directory with "theme_boost_campus_foo"
 * Rename the file /theme/boost_campus_child/lang/en/theme_boost_campus_child.php to /theme/boost_campus_foo/lang/en/theme_boost_campus_foo.php
 * Modify the strings "pluginname" and "configtitle" in /theme/boost_campus_foo/lang/en/theme_boost_campus_foo.php according to your needs

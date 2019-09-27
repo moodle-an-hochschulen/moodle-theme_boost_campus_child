@@ -9,7 +9,7 @@ Moodle Boost Campus child theme which is intended to get the full Boost Campus f
 Requirements
 ------------
 
-This plugin requires Moodle 3.6+
+This plugin requires Moodle 3.7+
 
 
 Motivation for this theme
@@ -170,7 +170,6 @@ Copyright
 ---------
 
 Ulm University
-kiz - Media Department
-Team Web & Teaching Support
+Communication and Information Centre (kiz)
 Kathrin Osswald
 

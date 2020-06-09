@@ -131,7 +131,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_boost_campus_child/scsspre';
     $title = get_string('rawscsspre', 'theme_boost', null, true);
     $description = get_string('rawscsspre_desc', 'theme_boost', null, true);
-    $setting = new admin_setting_configtextarea($name, $title, $description, '', PARAM_RAW);
+    $setting = new admin_setting_scsscode($name, $title, $description, '', PARAM_RAW);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
@@ -139,7 +139,7 @@ if ($ADMIN->fulltree) {
     $name = 'theme_boost_campus_child/scss';
     $title = get_string('rawscss', 'theme_boost', null, true);
     $description = get_string('rawscss_desc', 'theme_boost', null, true);
-    $setting = new admin_setting_configtextarea($name, $title, $description, '', PARAM_RAW);
+    $setting = new admin_setting_scsscode($name, $title, $description, '', PARAM_RAW);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 

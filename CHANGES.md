@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2020-06-09 - Improved SCSS settings to be used with admin_setting_scsscode that validates the code before saving.
+
 ### v3.8-r1
 
 * 2020-03-25 - Prepare compatibility for Moodle 3.8.

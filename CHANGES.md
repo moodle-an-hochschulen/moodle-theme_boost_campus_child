@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2020-09-24 - Fixed bug that theme Boost Campus Child did not show the favicon set in parent theme Boost Campus.
 * 2020-06-09 - Improved SCSS settings to be used with admin_setting_scsscode that validates the code before saving.
 
 ### v3.8-r1

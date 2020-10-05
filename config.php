@@ -36,4 +36,18 @@ $THEME->prescsscallback = 'theme_boost_campus_child_get_pre_scss';
 $THEME->yuicssmodules = array();
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->requiredblocks = ' ';
-$THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_DEFAULT;
+
+// MODIFICATION START:
+// Apply the setting from parent theme Boost Campus to define where the
+// add a block widget is placed.
+
+// Get the config from parent theme boost_campus.
+if (get_config('theme_boost_campus', 'addablockposition') == 'positionnavdrawer') {
+    $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
+} else {
+    $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_DEFAULT;
+}
+// MODIFCATION END.
+/* ORIGINAL START.
+THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_DEFAULT;
+ORIGINAL END. */

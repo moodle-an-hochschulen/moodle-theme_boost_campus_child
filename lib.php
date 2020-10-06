@@ -32,9 +32,9 @@ defined('MOODLE_INTERNAL') || die();
  * @return string
  */
 function theme_boost_campus_child_get_extra_scss($theme) {
-    // Get the config from parent theme boost_campus
+    // Get the config from parent theme boost_campus.
     $boostcampusconfig = theme_config::load('boost_campus');
-    // Retrieve its SCSS
+    // Retrieve its SCSS.
     $boostcampusscss = $boostcampusconfig->settings->scss;
 
     $content = '';

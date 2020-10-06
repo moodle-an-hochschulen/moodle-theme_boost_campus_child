@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.8-r2
 
 * 2020-10-05 - Fixed bug that setting addablockposition was not applied to Boost Campus Child.
 * 2020-09-24 - Fixed bug that theme Boost Campus Child did not show the favicon set in parent theme Boost Campus.

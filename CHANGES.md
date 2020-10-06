@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.9-r1
 
 * 2020-10-06 - Prepare compatibility for Moodle 3.9.
 

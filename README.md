@@ -1,7 +1,7 @@
 moodle-theme_boost_campus_child
 ===============================
 
-[![Build Status](https://travis-ci.org/moodleuulm/moodle-theme_boost_campus_child.svg?branch=master)](https://travis-ci.org/moodleuulm/moodle-theme_boost_campus_child)
+[![Build Status](https://travis-ci.com/moodleuulm/moodle-theme_boost_campus_child.svg?branch=master)](https://travis-ci.com/moodleuulm/moodle-theme_boost_campus_child)
 
 Moodle Boost Campus child theme which is intended to get the full Boost Campus features but easy to change in color and adding additional SCSS for example for delivering several identical based themes for different users.
 

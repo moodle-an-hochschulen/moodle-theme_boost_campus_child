@@ -39,7 +39,7 @@ defined('MOODLE_INTERNAL') || die;
  * @package theme_boost_campus_child
  * @category output
  */
-class core_renderer extends \core_renderer {
+class core_renderer extends \theme_boost_campus\output\core_renderer {
 
     /**
      * Override to be able to use uploaded images from admin_setting as well.

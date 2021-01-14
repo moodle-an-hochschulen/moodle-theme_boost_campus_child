@@ -4,6 +4,10 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
+### Unreleased
+
+* 2021-01-14 - Bugfix: Fixed a regression after fixing the missing favicon which resulted in missing notes and hints in the course header.
+
 ### v3.9-r2
 
 * 2021-01-06 - Change in Moodle release support:

@@ -65,8 +65,10 @@ class core_renderer extends \theme_boost_campus\output\core_renderer {
             return $bcconfig->image_url('favicon', 'theme');
         }
         // MODIFICATION END.
+        // @codingStandardsIgnoreStart
         /* ORIGINAL START.
         return $this->image_url('favicon', 'theme');
         ORIGINAL END. */
+        // @codingStandardsIgnoreEnd
     }
 }

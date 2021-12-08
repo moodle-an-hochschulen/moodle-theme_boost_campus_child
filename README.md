@@ -9,7 +9,7 @@ Moodle Boost Campus child theme which is intended to get the full Boost Campus f
 Requirements
 ------------
 
-This plugin requires Moodle 3.10+
+This plugin requires Moodle 3.11+
 
 
 Motivation for this theme

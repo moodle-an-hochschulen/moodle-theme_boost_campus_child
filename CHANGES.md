@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2021-12-08 - Prepare compatibility for Moodle 3.11.
 * 2021-02-05 - Make codechecker fully happy
 * 2021-02-05 - Move Moodle Plugin CI from Travis CI to Github actions
 

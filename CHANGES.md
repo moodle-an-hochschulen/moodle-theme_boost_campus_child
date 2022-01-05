@@ -4,7 +4,7 @@ moodle-theme_boost_campus_child
 Changes
 -------
 
-### Unreleased
+### v3.11-r1
 
 * 2021-12-08 - Prepare compatibility for Moodle 3.11.
 * 2021-02-05 - Make codechecker fully happy

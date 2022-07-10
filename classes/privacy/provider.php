@@ -24,8 +24,6 @@
 
 namespace theme_boost_campus_child\privacy;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Privacy Subsystem implementing null_provider.
  *

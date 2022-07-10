@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2022-06-26 - Update dependency to theme_boost_campus in Moodle Plugin CI
 * 2022-06-26 - Update maintainers and copyrights in README.md.
 
 ### v3.11-r1

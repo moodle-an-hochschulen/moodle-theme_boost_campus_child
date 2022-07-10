@@ -28,9 +28,6 @@ namespace theme_boost_campus_child\output;
 use moodle_url;
 use theme_config;
 
-defined('MOODLE_INTERNAL') || die;
-
-
 /**
  * Extending the core_renderer interface.
  *

@@ -22,8 +22,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Inject additional SCSS.
  * This function needs to be implemented because we take most settings from the parent theme boost_campus.

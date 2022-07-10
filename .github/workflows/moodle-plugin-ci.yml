@@ -55,7 +55,7 @@ jobs:
 
       - name: Install moodle-plugin-ci
         run: |
-          moodle-plugin-ci add-plugin --branch $MOODLE_BRANCH moodleuulm/moodle-theme_boost_campus
+          moodle-plugin-ci add-plugin --branch $MOODLE_BRANCH moodle-an-hochschulen/moodle-theme_boost_campus
           moodle-plugin-ci install --plugin ./plugin --db-host=127.0.0.1
         env:
           DB: ${{ matrix.database }}

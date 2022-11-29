@@ -6,6 +6,10 @@ Changes
 
 ### Unreleased
 
+* 2022-11-28 - Updated Moodle Plugin CI to latest upstream recommendations
+
+### Unreleased
+
 * 2022-07-10 - Add Capabilities section to README.md
 
 ### v3.11-r2

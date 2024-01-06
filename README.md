@@ -6,6 +6,14 @@ moodle-theme_boost_campus_child
 Moodle Boost Campus child theme which is intended to get the full Boost Campus features but easy to change in color and adding additional SCSS for example for delivering several identical based themes for different users.
 
 
+:warning: End of life
+---------------------
+
+**This theme has reached end of life.**
+
+This theme will not be upgraded for Moodle 4.x. Please consider using our successor theme_boost_union.
+
+
 Requirements
 ------------
 
